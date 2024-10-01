@@ -12,7 +12,8 @@
 
 type propsType = {
     name:string
-    age:number
+    // To remove error here we will add question mark and it means it is optional(means if someone pass age i will display if not then i will not display)
+    age?:number
     isEligible:boolean
     id:string
 }
