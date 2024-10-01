@@ -1,4 +1,5 @@
 import './App.css'
+import LogLevel from './LogLevel';
 import PersonDetails from './PersonDetails'
 import Teams from './Teams';
 // import Home from './Home'
@@ -43,6 +44,7 @@ function App() {
       {/* <Home name="Umar" age={25} isEligible={true} id="1212jhxcjh12"/> */}
       {/* <PersonDetails details = {details}/> */}
       {/* <Teams IPL={IPL} score={score} teamsDetails = {teamsDetails}/> */}
+      <LogLevel status="error"/>
       </div> 
     </>
   )
