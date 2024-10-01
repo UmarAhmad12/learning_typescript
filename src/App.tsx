@@ -5,6 +5,7 @@ import Teams from './Teams';
 import Home from './Home'
 import Parent from './Parent';
 import Child from './Child';
+import SignIn from './SignIn';
 
 function App() {
   const details = {
@@ -56,7 +57,10 @@ function App() {
       {/* <LogLevel status="error"/> */}
 
       {/* Component props types */}
-      <Parent children={<Child />}/>
+      {/* <Parent children={<Child />}/> */}
+
+      {/* useState hook*/}
+      <SignIn />
       </div> 
     </>
   )
